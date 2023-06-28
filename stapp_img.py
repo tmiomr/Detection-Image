@@ -122,9 +122,9 @@ def main():
 
         # 推論で得られたクラス番号(初期値は0)によって出力結果を分岐
         if classNo == 0:
-            st.subheader(f"これは{pred0}％の確率で「ザク」です！")
+            st.subheader(f"これは{pred0}％の確率で「siro1」です！")
         else:
-            st.subheader(f"これは{pred1}％の確率で「ガンダム」です！")
+            st.subheader(f"これは{pred1}％の確率で「siro2」です！")
 
 
 
