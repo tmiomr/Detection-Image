@@ -95,7 +95,7 @@ def teachable_machine_classification(img, weights_file):
 def main():
 
     # タイトルの表示
-    st.title("Image Classification with Google's Teachable Machine")
+    st.title("城判別")
 
     # アップローダの作成
     uploaded_file = st.file_uploader("Choose a Image...", type="jpg")
